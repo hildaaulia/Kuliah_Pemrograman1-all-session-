@@ -1,0 +1,16 @@
+class Main {
+	public static void main(String[] args) {
+	
+		Santapan s = new Santapan();
+		Santapan ma = new Makanan();
+		Santapan mi = new Minuman();
+		Santapan ce = new Cemilan();
+		
+		s.cerna(ma);
+		s.cerna(mi);
+		s.cerna(ce);
+		
+	}
+}
+
+		
